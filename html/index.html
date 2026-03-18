@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Online Store</title>
+<link rel="stylesheet" href="css/styles.css" />
+<script type="module" src="js/index.js" defer></script>
+    </head>
+    <body>
+        <header class="site-header">
+            <nav class="nav">
+                <a href="index.html" class="logo">Online Store</a>
+                <a href="checkout.html" class="basket-link">Checkout (<span id="basket-count">0</span>)</a>
+            </nav>
+        </header>
+<main class="container">
+    <h1>Products</h1>
+
+    <section class="filters">
+        <label for="filter">Filter Products</label>
+        <select id="filter">
+            <option value="all">All</option>
+        </select>
+    </section>
+
+    <section id="message-container"></section>
+    <section class="product-grid" id="product-list"></section>
+</main>
+</body>
+</html>
